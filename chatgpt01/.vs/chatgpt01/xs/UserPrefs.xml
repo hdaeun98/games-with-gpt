@@ -1,0 +1,26 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="scripts.js">
+    <Files>
+      <File FileName="styles.css" Line="60" Column="1" />
+      <File FileName="index.html" Line="18" Column="1" />
+      <File FileName="scripts.js" Line="57" Column="78" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="chatgpt01" expanded="True">
+            <Node name="Solution Items" expanded="True">
+              <Node name="/Users/dany/Downloads/cm244_final/chatgpt01/index.html" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

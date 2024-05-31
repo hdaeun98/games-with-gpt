@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Match Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="title">Color Match Game</h1>
+    <div class="container">
+        <div class="color-box target-color"></div>
+        <div class="color-box adjusted-color"></div>
+    </div>
+
+    <div class="controls">
+        <label for="red-slider">Red</label>
+        <input type="range" id="red-slider" min="0" max="255" value="0">
+        <label for="green-slider">Green</label>
+        <input type="range" id="green-slider" min="0" max="255" value="0">
+        <label for="blue-slider">Blue</label>
+        <input type="range" id="blue-slider" min="0" max="255" value="0">
+        <button id="check-btn">Check</button>
+    </div>
+
+    <p id="result" class="result"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
