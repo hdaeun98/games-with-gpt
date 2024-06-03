@@ -1,0 +1,90 @@
+﻿body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.word-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.letter {
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    margin: 0 5px;
+    border-bottom: 2px solid #000;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrong-letters {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #ff4500;
+}
+
+.hangman {
+    margin-bottom: 20px;
+}
+
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.key {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .key:hover {
+        background-color: #45a049;
+    }
+
+.restart-button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .restart-button:hover {
+        background-color: #007BB5;
+    }
+
+.message {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #ff4500;
+}

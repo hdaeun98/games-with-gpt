@@ -54,7 +54,7 @@
 
         if (cardsWon.length === cardArray.length / 2) {
             const endTime = performance.now();
-            const timeTaken = (((endTime - startTime) / 1000) * 10).toFixed(3); 
+            const timeTaken = (((endTime - startTime) / 1000) * 10).toFixed(3);
             setTimeout(() => alert(`Congratulations! You found them all in ${timeTaken} seconds!`), 500);
         }
     }
@@ -90,11 +90,7 @@
         createBoard();
     }
 
-    // Create a restart button after the grid
-    const restartButton = document.createElement('button');
-    restartButton.textContent = 'Restart Game';
-    restartButton.addEventListener('click', restartGame);
-    document.body.appendChild(restartButton);
+    document.getElementById('restart-button').addEventListener('click', restartGame);
 
     createBoard();
 });
